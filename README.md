@@ -1,3 +1,5 @@
+> Archived. Part of the XeWe LED family; see https://github.com/xewe-labs/xewe-led-os.
+
 # PosterOS — Arduino firmware that brings a fairytale poster to life
 
 College project · October 2022 · Team: Max Dokukin (LED hardware and firmware) with one teammate (poster design) · Status: Completed
@@ -59,7 +61,7 @@ The figures describe the firmware; there are no performance measurements beyond 
 
 ```bash
 # Arduino needs the sketch folder to be named like the .ino file
-git clone https://github.com/xewe-labs/xewe-led-poster-os.git PosterOS
+git clone https://github.com/xewe-labs/led-poster-os.git PosterOS
 arduino-cli core install arduino:avr
 arduino-cli lib install "Adafruit NeoPixel"
 arduino-cli compile --fqbn arduino:avr:nano PosterOS
